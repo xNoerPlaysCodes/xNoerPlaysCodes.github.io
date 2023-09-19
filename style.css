@@ -53,3 +53,14 @@ p {
     text-align: left;
     margin-top: 10px;
 }
+.falio-logo {
+    position: absolute;
+    top: 150px; /* Adjust the top position as needed */
+    left: 50%; /* Center it horizontally */
+    transform: translateX(-50%); /* Center it horizontally */
+    z-index: 2; /* Place it above the background and behind the floating window */
+    width: 250px; /* Set the desired width */
+    height: auto; /* Automatically adjust the height to maintain the aspect ratio */
+}
+
+
