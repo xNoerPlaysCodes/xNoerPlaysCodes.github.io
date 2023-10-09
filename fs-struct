@@ -1,0 +1,20 @@
+| /
+| contact/
+    | index.html
+    | style.css
+| about/
+    | index.html
+    | style.css
+| fonts/
+    | mulish/
+        | mulish.woff
+| icons/
+    | discord.png
+    | folder.png
+| projects/
+    | index.html
+    | style.css
+| bg.png
+| favicon.ico
+| style.css
+| index.html
