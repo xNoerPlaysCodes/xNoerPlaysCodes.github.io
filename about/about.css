@@ -1,13 +1,12 @@
 body {
     margin: 0;
     font-family: "gg-sans", sans-serif;
-    background-image: url("./bg.png");
+    background-image: url("../bg.png");
     background-size: cover;
     backdrop-filter: blur(20px);
     min-height: 100vh;
     justify-content: center;
     align-items: center;
-    color: white
 }
 
 .top-bar {
@@ -64,7 +63,7 @@ body {
 }
 
 h1 {
-    font-size: 24px;
+    font-size: 36px;
     font-weight: bold;
     margin: 0;
 }
@@ -77,5 +76,5 @@ p {
 
 @font-face {
     font-family: 'Mulish';
-    src: url('./fonts/mulish/mulish.woff') format('woff2')
+    src: url('../fonts/mulish/mulish.woff') format('woff2')
 }
