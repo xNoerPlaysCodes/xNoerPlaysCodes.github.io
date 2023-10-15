@@ -1,0 +1,3 @@
+Malbourne is a free and open-source discord moderation-only bot with anti-raid and anti-nuke features...
+
+https://xnoerplayscodes.github.io/
