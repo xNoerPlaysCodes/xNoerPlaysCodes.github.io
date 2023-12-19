@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    background-image: url("assets/bg.png");
+    background-image: url("../assets/bg.png");
     background-size: cover;
     height: 100vh;
 }
@@ -45,4 +45,8 @@ body {
 .main-link {
     color: #7dcdff;
     text-decoration: none;
+}
+
+.proper-p {
+    margin-right: 30%;
 }
