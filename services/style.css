@@ -1,0 +1,101 @@
+body {
+    background-image: url("../assets/bg2.png");
+    margin: 0;
+    padding: 0;
+}
+
+body::-webkit-scrollbar {
+    width: 0; /* You can adjust this value to make it thinner or thicker */
+}
+
+.first {
+    height: 540px;
+    margin: 0;
+    padding: 0;
+    background-image: url("../assets/bg.png");
+    background-size: cover;
+}
+.second {
+    transform: translateY(-47px);
+    height: 1080px;
+    padding: 0;
+    background-image: url("../assets/bg2.png");
+    background-size: cover;
+}
+
+
+.navbar {
+    padding-top: 10px;
+    text-align: center;
+}
+
+.link {
+    padding: 10px;
+    font-weight: 700;
+    text-decoration: none;
+    color: white;
+}
+
+.link:hover {
+    transition: color 0.5s;
+    color: #1492ec;
+}
+
+.header-class {
+    margin-top: 18px;
+    display: flex;
+    justify-content: center;
+}
+.proper-header {
+    font-family: "Poppins ExtraBold", sans-serif;
+    color: white;
+}
+
+.content {
+    font-family: "Poppins SemiBold", sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+.proper-p {
+    color: white;
+    font-family: "Poppins SemiBold", "sans-serif";
+}
+
+.main-link {
+    color: #7dcdff;
+    text-decoration: none;
+}
+
+.reviews {
+    background-color: rgba(0, 0, 0, 0.1);
+    color: white;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+    max-width: 80%;
+    margin: 5vh 10%;
+}
+
+.services {
+    transform: translateY(30px);
+    background-color: rgba(0, 0, 0, 0.1);
+    color: white;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+    max-width: 80%;
+    margin: 5vh 10%;
+}
+
+.info {
+    transform: translateY(300px);
+    background-color: rgba(0, 0, 0, 0.1);
+    color: white;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 20px;
+    max-width: 30%;
+}

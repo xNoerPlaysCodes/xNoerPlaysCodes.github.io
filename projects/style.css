@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url("../assets/bg.png");
+    background-size: cover;
+    height: 100vh;
+}
+
+.navbar {
+    background-color: rgba(59,40,255,0.09);
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.link {
+    padding: 10px;
+    font-weight: 700;
+    text-decoration: none;
+    color: white;
+}
+
+.link:hover {
+    transition: color 0.5s;
+    color: #1492ec;
+}
+
+.main-content {
+    color: white;
+    margin: 5vh 10%;
+}
+
+.logo {
+    display: inline-block;
+    border-radius: 50px;
+    position: relative;
+    top: 20px;
+}
+
+.proper-header {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.main-link {
+    color: #7dcdff;
+    text-decoration: none;
+}
