@@ -1,7 +1,7 @@
 body {
+    background-image: url("../assets/bg2.png");
     margin: 0;
     padding: 0;
-    background-color: DodgerBlue;
 }
 
 body::-webkit-scrollbar {
@@ -23,6 +23,12 @@ body::-webkit-scrollbar {
     background-size: cover;
 }
 
+.third {
+    margin: 0;
+    padding: 0;
+    background-image: url("../assets/bg2.png");
+    background-size: cover;
+}
 
 .navbar {
     padding-top: 10px;
