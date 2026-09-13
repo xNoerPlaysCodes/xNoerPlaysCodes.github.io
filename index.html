@@ -1,27 +1,141 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>noerlol</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#080a12" />
+  <meta name="description" content="noerlol — developer portfolio featuring rocket-runtime and kSTL." />
+  <meta property="og:title" content="noerlol — Portfolio" />
+  <meta property="og:description" content="Low-level C++ projects, game-engine work, and freestanding runtime code." />
+  <meta property="og:type" content="website" />
+  <title>noerlol — portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
+  <a class="skip-link" href="#main">Skip to content</a>
 
-<div class="navbar">
-    <a class="link" href="projects/index.html">Projects</a>
-    <a class="link" href="about/index.html">About me</a>
-    <a class="link" href="https://discord.gg/promotion">Join me</a>
-    <a class="link" href="contact/index.html">Contact</a>
-    <a class="link" href="services/index.html">My Services</a>
-    <!-- <a class="link" href="#">Home Page</a> -->
-</div>
+  <div class="bg" aria-hidden="true">
+    <span class="orb orb-a"></span>
+    <span class="orb orb-b"></span>
+    <span class="grid"></span>
+  </div>
 
-<div class="main-content">
-    <img class="logo" src="assets/logo.png" alt="myself" width="64" height="64">
-    <h1 class="proper-header">noerlol</h1>
-    <p>A C++ and Python developer always looking to expand my area of knowledge.</p>
-    <p>Click <a class="main-link" href="about/index.html">here</a> to get to know me better</p>
-</div>
+  <header class="site-header" data-reveal>
+    <nav class="nav" aria-label="Primary navigation">
+      <a class="brand" href="#top" aria-label="noerlol home">noerlol</a>
+      <div class="nav-links">
+        <a href="#work">work</a>
+        <a href="#about">about</a>
+        <a href="https://github.com/xNoerPlaysCodes" target="_blank" rel="noreferrer">github</a>
+      </div>
+    </nav>
+  </header>
 
+  <main id="main">
+    <section id="top" class="hero section">
+      <div class="hero-copy" data-reveal>
+        <p class="eyebrow">C++ • engines • runtime systems</p>
+        <h1>hey, I'm noerlol.</h1>
+        <p class="hero-text">
+          Building sharp, lightweight systems: game engines, freestanding C++ utilities, and low-level tooling that stays fast and simple.
+        </p>
+        <div class="hero-actions" aria-label="Primary actions">
+          <a class="button primary" href="#work">view projects</a>
+          <a class="button ghost" href="https://github.com/xNoerPlaysCodes" target="_blank" rel="noreferrer">github profile</a>
+        </div>
+      </div>
+
+      <aside class="hero-card tilt" data-reveal aria-label="Profile summary">
+        <div class="terminal-bar"><span></span><span></span><span></span></div>
+        <pre><code>developer: noerlol
+focus: C++ / systems
+style: minimal, fast
+status: shipping</code></pre>
+      </aside>
+    </section>
+
+    <section class="section bento" aria-label="Highlights">
+      <article class="tile wide" data-reveal>
+        <span class="tile-label">current direction</span>
+        <h2>Clean interfaces for hard problems.</h2>
+        <p>Simple APIs, strong performance, cross-platform thinking, and code that gets out of the way.</p>
+      </article>
+      <article class="tile" data-reveal>
+        <span class="tile-label">language</span>
+        <strong>C++</strong>
+        <p>Modern C++ with low-level control.</p>
+      </article>
+      <article class="tile" data-reveal>
+        <span class="tile-label">systems</span>
+        <strong>Runtime</strong>
+        <p>Engines, rendering, freestanding support.</p>
+      </article>
+      <article class="tile" data-reveal>
+        <span class="tile-label">principle</span>
+        <strong>Small core</strong>
+        <p>Less noise. More useful code.</p>
+      </article>
+    </section>
+
+    <section id="work" class="section work">
+      <div class="section-heading" data-reveal>
+        <p class="eyebrow">selected work</p>
+        <h2>Projects</h2>
+      </div>
+
+      <div class="projects">
+        <article class="project-card tilt" data-reveal>
+          <div class="project-topline">
+            <span class="project-icon">🚀</span>
+            <span class="repo-stats" data-repo="rocket-runtime">C++</span>
+          </div>
+          <h3>rocket-runtime</h3>
+          <p>Lightweight and powerful 2D game engine for OpenGL / OpenGL ES, with Vulkan work in progress, UI support, and Python scripting.</p>
+          <ul class="tags" aria-label="rocket-runtime tags">
+            <li>C++23</li><li>Game Engine</li><li>OpenGL</li><li>Cross-platform</li>
+          </ul>
+          <div class="project-links">
+            <a href="https://github.com/xNoerPlaysCodes/rocket-runtime" target="_blank" rel="noreferrer">source</a>
+            <a href="https://xnoerplayscodes.github.io/rocket-runtime/" target="_blank" rel="noreferrer">site</a>
+          </div>
+        </article>
+
+        <article class="project-card tilt" data-reveal>
+          <div class="project-topline">
+            <span class="project-icon">⚙️</span>
+            <span class="repo-stats" data-repo="kSTL">C++</span>
+          </div>
+          <h3>kSTL</h3>
+          <p>A freestanding, minimal C++ STL implementation with a small C++ runtime for constructor initialization and main entry support.</p>
+          <ul class="tags" aria-label="kSTL tags">
+            <li>Freestanding</li><li>STL</li><li>Runtime</li><li>CMake</li>
+          </ul>
+          <div class="project-links">
+            <a href="https://github.com/xNoerPlaysCodes/kSTL" target="_blank" rel="noreferrer">source</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="about" class="section about" data-reveal>
+      <div>
+        <p class="eyebrow">about</p>
+        <h2>Simple software, serious internals.</h2>
+      </div>
+      <p>
+        noerlol works close to the metal: C++, renderers, game-engine architecture, build systems, and minimal runtime libraries. The focus is practical engineering with clean presentation and no unnecessary bloat.
+      </p>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© <span id="year"></span> noerlol</p>
+    <a href="https://github.com/xNoerPlaysCodes" target="_blank" rel="noreferrer">github.com/xNoerPlaysCodes</a>
+  </footer>
+
+  <script src="script.js" defer></script>
 </body>
 </html>
